@@ -1,4 +1,4 @@
-
+# Implementation of Univariate Linear Regression
 ## AIM:
 To implement univariate Linear Regression to fit a straight line using least squares.
 
@@ -8,27 +8,21 @@ To implement univariate Linear Regression to fit a straight line using least squ
 
 ## Algorithm
 STEP 1. Get the independent variable X and dependent variable Y.
-
 STEP 2. Calculate the mean of the X -values and the mean of the Y -values.
-
 STEP 3. Find the slope m of the line of best fit using the formula. 
-
 <img width="231" alt="image" src="https://user-images.githubusercontent.com/93026020/192078527-b3b5ee3e-992f-46c4-865b-3b7ce4ac54ad.png">
-
 STEP 4. Compute the y -intercept of the line by using the formula:
-
 <img width="148" alt="image" src="https://user-images.githubusercontent.com/93026020/192078545-79d70b90-7e9d-4b85-9f8b-9d7548a4c5a4.png">
-
 STEP 5. Use the slope m and the y -intercept to form the equation of the line.
-
 END. Obtain the straight line equation Y=mX+b and plot the scatterplot.
 
 ## Program:
 ```
 /*
 Program to implement univariate Linear Regression to fit a straight line using least squares.
-Developed by: Sharan G
-RegisterNumber:212223230203
+Developed by:Sharan G
+RegisterNumber:  212223230203
+*/
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -70,11 +64,18 @@ print(Y_predicted)
 plt.plot(X,Y_predicted,color="red")
 plt.show()
 
-*/
 ```
 
 ## Output:
-![Screenshot 2024-08-23 053212](https://github.com/user-attachments/assets/8de5a7a3-b452-45cb-b0f4-0b2877cba181)
+# SLOPE AND Y-INTERCEPT:
+![Screenshot 2024-08-23 055626](https://github.com/user-attachments/assets/67b55996-e676-4710-b6ca-61233034739d)
+
+# Y PREDICTED:
+![Screenshot 2024-08-23 055631](https://github.com/user-attachments/assets/4743b6ac-18d6-4c64-a62f-416b7ae3c9cc)
+
+# GRAPH:
+![Screenshot 2024-08-23 053212](https://github.com/user-attachments/assets/79a21a3c-c572-4d56-89a5-a868941b189a)
+
 
 
 ## Result:
