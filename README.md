@@ -83,7 +83,8 @@ plt.show()
 ![Screenshot 2024-08-23 055631](https://github.com/user-attachments/assets/4743b6ac-18d6-4c64-a62f-416b7ae3c9cc)
 
 # GRAPH:
-![Screenshot 2024-08-23 053212](https://github.com/user-attachments/assets/79a21a3c-c572-4d56-89a5-a868941b189a)
+![Screenshot 2024-09-27 113144](https://github.com/user-attachments/assets/4c0ab17c-4fd9-4392-bbfc-c4f9d28ae7c6)
+
 
 
 
